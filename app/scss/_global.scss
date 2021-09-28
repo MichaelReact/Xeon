@@ -1,0 +1,42 @@
+
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   
+    color:#fff;
+    font-size: 19px;
+    line-height: 28px;
+}
+.container{
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 20px;
+}
+ul{
+    padding:0;
+    margin: 0;
+    list-style:none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.btn{
+    padding: 15px 40px;
+    border-radius: 6px;
+    background:#fff;
+    font-weight: 400;
+    border:none;
+    cursor:pointer;
+    z-index: 1;
+}
